@@ -1,0 +1,430 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .clear{
+    clear:both;
+ }
+.osclass-welcome {
+    margin: 0 0 20px 0;
+}
+.osclass-results {
+    position: relative;
+    clear: both;
+    overflow: hidden;
+}
+.osclass-results .osclass_wrapper {
+    width:100%;
+    margin-bottom:15px;
+}
+
+.osclass-actions {
+    margin-bottom: 15px;
+}
+.osclass-actions .osclass-action {
+    display:inline-block;
+    margin-right: .5em;
+}
+
+.osc-listing {
+    min-height: 110px;
+    width: 100%;margin: 0;
+    padding: 10px 0 10px 0;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fff;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.osc-listing:hover {
+    background: whitesmoke; 
+}
+
+.listing-info {
+    margin-left: 110px;
+    padding: 0;
+    overflow: hidden;
+    clear: both;
+}
+
+.listing-date{
+    float: left;
+    padding: 0;
+    display: inline-block;
+    border: 2px solid transparent;
+    width: 50%;
+}
+
+.listing-price {
+    background-color: #b34040;
+    opacity: 1;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0 4px 0 4px;
+    color: #b34040;
+    border: 2px solid #b34040;
+    border-radius: 4px;
+    font-weight: bold;
+    background-color: transparent;
+
+    position: relative;
+    bottom: 0;
+    right: 0;
+    float: right;
+    min-width: 20%;
+}
+
+.osc-listing:hover .listing-price {
+    opacity: 1;
+    background-color: #b34040;
+    color: white;
+}
+
+.osc-link-wrap {
+    display: block;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+.category-column {
+    margin-top: 3em;
+    /*width: 33%;*/
+    /*float: left;*/
+}
+.category-column .osc-category {
+    display:block;
+    box-shadow: none;
+}
+.category-column .osc-subcategory {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.category-column .osc-subcategory:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    text-decoration: none;
+}
+.osclass-item-form select {
+    width: 100%;
+}
+
+
+.bx-wrapper .bx-pager-item img {
+    max-height: 100px;
+}
+#bx-pager {
+    text-align: center;
+    margin-top: -50px;
+    padding-bottom: 15px;
+}
+
+.osc-item .meta  {
+    padding:.5em 0px;
+    border-top: 1px gray solid;
+}
+.osc-item div.meta-last  {
+    border-bottom: 1px gray solid;
+    margin-bottom:1em;
+}
+.osc-item .meta label {
+    min-width: 150px;
+    display: inline-block;
+}
+.osc-item-contact .osc-header {
+    position: relative;
+}
+.osc-item .info {
+    position: relative;
+    height: auto;
+    margin: .5em 0px;
+}
+.osc-item-contact .osc-header .price,
+.osc-item .info .price {
+    margin: 15px 0;
+    padding: .2rem .4rem;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+
+.osc-item-contact .osc-header .price span,
+.osc-item .info .price span{
+    background-color: #b34040;
+    padding: .2rem .4rem;
+    display: inline-block;
+}
+
+.osc-item .info .avatar {
+    float:left;
+}
+.osc-item .info .avatar img {
+    height: 80px;
+}
+.osc-item .info .pub-date,
+.osc-item .info .by {
+    margin-left:90px;
+    line-height: 40px;
+    height:50%;
+}
+
+.osc-item .bx-wrapper img {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+}
+
+.osc-item .bx-wrapper.photos {
+    margin-bottom: 15px;
+}
+
+.osc-item ul.bxslider,
+.osc-item ul.bxslider li {
+    margin: 0;
+}
+
+.uk-margin {
+    margin-bottom:15px;
+}
+
+.count-title,
+.count-description {
+    font-weight: bold;
+}
+
+.form-btn-center{
+    margin: 15px auto;
+    text-align: center;
+}
+.btn-center{
+    display: inline-block;
+    width: auto;
+}
+
+.price_range{
+    width: 48%;
+    margin-right: 1%;
+    display: inline-block;
+}
+.price_range:last-of-type{
+    margin-right: 0;
+    margin-left: 1%;
+}
+.price_range input{
+    margin-left: 1em;
+}
+.osc-100 {
+    width: 100%;
+}
+
+/* ========================================================================
+   Component: Alert
+ ========================================================================== */
+.uk-alert {
+  margin-bottom: 15px;
+  padding: 10px;
+  background: #ebf7fd;
+  color: #2d7091;
+}
+/*
+ * Add margin if adjacent element
+ */
+* + .uk-alert {
+  margin-top: 15px;
+}
+/*
+ * Remove margin from the last-child
+ */
+.uk-alert > :last-child {
+  margin-bottom: 0;
+}
+/*
+ * Keep color for headings if the default heading color is changed
+ */
+.uk-alert h1,
+.uk-alert h2,
+.uk-alert h3,
+.uk-alert h4,
+.uk-alert h5,
+.uk-alert h6 {
+  color: inherit;
+}
+/* Close in alert
+ ========================================================================== */
+.uk-alert > .uk-close:first-child {
+  float: right;
+}
+/*
+ * Remove margin from adjacent element
+ */
+.uk-alert > .uk-close:first-child + * {
+  margin-top: 0;
+}
+/* Modifier: `uk-alert-success`
+ ========================================================================== */
+.uk-alert-success {
+  background: #f2fae3;
+  color: #659f13;
+}
+/* Modifier: `uk-alert-warning`
+ ========================================================================== */
+.uk-alert-warning {
+  background: #fffceb;
+  color: #e28327;
+}
+/* Modifier: `uk-alert-danger`
+ ========================================================================== */
+.uk-alert-danger {
+  background: #fff1f0;
+  color: #d85030;
+}
+/* Modifier: `uk-alert-large`
+ ========================================================================== */
+.uk-alert-large {
+  padding: 20px;
+}
+.uk-alert-large > .uk-close:first-child {
+  margin: -10px -10px 0 0;
+}
+/* 
+.uk-form-file {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    overflow: hidden;
+}
+.uk-form-file input[type=file] {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+    left: 0;
+    font-size: 500px;
+} */
+
+@media all and (max-width: 760px) {
+    .listing-date {
+        display: none;
+    }
+    .listing-location {
+        width: auto;
+    }
+    .listing-location i{
+        display: none;
+    }
+    .listing-location:before {
+        content: none;
+    }
+}
+
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/* ========================================================================
+   Component: Alert
+ ========================================================================== */
+ .uk-alert {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #ebf7fd;
+    color: #2d7091;
+  }
+  /*
+   * Add margin if adjacent element
+   */
+  * + .uk-alert {
+    margin-top: 15px;
+  }
+  /*
+   * Remove margin from the last-child
+   */
+  .uk-alert > :last-child {
+    margin-bottom: 0;
+  }
+  /*
+   * Keep color for headings if the default heading color is changed
+   */
+  .uk-alert h1,
+  .uk-alert h2,
+  .uk-alert h3,
+  .uk-alert h4,
+  .uk-alert h5,
+  .uk-alert h6 {
+    color: inherit;
+  }
+  /* Close in alert
+   ========================================================================== */
+  .uk-alert > .uk-close:first-child {
+    float: right;
+  }
+  /*
+   * Remove margin from adjacent element
+   */
+  .uk-alert > .uk-close:first-child + * {
+    margin-top: 0;
+  }
+  /* Modifier: `uk-alert-success`
+   ========================================================================== */
+  .uk-alert-success {
+    background: #f2fae3;
+    color: #659f13;
+  }
+  /* Modifier: `uk-alert-warning`
+   ========================================================================== */
+  .uk-alert-warning {
+    background: #fffceb;
+    color: #e28327;
+  }
+  /* Modifier: `uk-alert-danger`
+   ========================================================================== */
+  .uk-alert-danger {
+    background: #fff1f0;
+    color: #d85030;
+  }
+  /* Modifier: `uk-alert-large`
+   ========================================================================== */
+  .uk-alert-large {
+    padding: 20px;
+  }
+  .uk-alert-large > .uk-close:first-child {
+    margin: -10px -10px 0 0;
+  }
+
+  .uk-100, .uk-input-title, .uk-textarea-description {
+    width: 100%;
+  }

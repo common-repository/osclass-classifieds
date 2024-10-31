@@ -1,0 +1,1 @@
+<div class="uk-alert uk-alert-danger"><?php _e('Osclass plugin is not setup.', 'osclass-classifieds'); ?></div>
